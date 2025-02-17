@@ -1,0 +1,15 @@
+name: "cerynthos"
+displayName: "Cerynthos"
+author: "[red] Aerodynamic Attorney"
+description: 
+''' 
+  A distant planet brimming with life [white] all of it breathing, beating, [red] selfish, hoarding, mindless.... 
+
+  [white] A distant planet brimming with valuable resources, both you and your enemy know that, your job? harvest it dry
+'''
+
+
+version: "1.0"
+minGameVersion: "146"
+dependencies: [ ]
+hidden: false
