@@ -1,0 +1,27 @@
+type: BurstDrill
+name: Atmospheric Excavator
+description: builds up air from the atmosphere until suficient pressure is built up, it then is released to break down minerals indefinetly
+size: 2
+category: production
+hasLiquids: false
+hardnessDrillMultiplier: 50
+drillTime: 300
+hasPower: false
+tier: 2
+shake: 0.5
+itemCapacity: 20
+researchCostMultiplier: 0.5
+drillEffect: {
+  type: WaveEffect
+  sizeFrom: 0.1
+  sizeTo: 5.6
+  strokeFrom: 0.8
+  strokeTo: 0.1
+  colorFrom: 8f8d87
+  colorTo: 6b6a66
+  lifetime: 20
+}
+requirements: [
+  copper/10
+]
+squareSprite: false
