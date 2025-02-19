@@ -13,8 +13,6 @@ itemCapacity: 20
 researchCostMultiplier: 0.5
 arrows: 1
 arrowSpacing: 0
-arrowRegion: atmospheric-excavator-ring.png
-arrowBlurRegion: atmospheric-excavator-glow.png
 
 drillEffect: {
   type: WaveEffect
