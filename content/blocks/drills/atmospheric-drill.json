@@ -29,23 +29,12 @@ drillEffect: {
   strokeTo: 0.1
   layer:0
   baseRotation: .2
-  sizeFrom: 0.1
-  sizeTo: 6.6
+  sizeFrom: 6.1
+  sizeTo: 0.1
   colorFrom: 8f8385
   colorTo: cbc1c1
   lifetime: 80
-}
-drillEffect: {
-  type: smoke
-  strokeFrom: 1.8
-  strokeTo: 0.1
-  layer:1
-  baseRotation: .2
-  sizeFrom: 0.1
-  sizeTo: 3.6
-  colorFrom: 8f8385
-  colorTo: 8f8385
-  lifetime: 80
+  interp: pow2Out
 }
 requirements: [
   copper/10
