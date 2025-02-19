@@ -13,7 +13,6 @@ itemCapacity: 20
 researchCostMultiplier: 0.5
 arrows: 1
 arrowSpacing: 0
-topInvertRegion: atmospheric-excavator-top-invert.png
 arrowRegion: atmospheric-excavator-ring.png
 arrowBlurRegion: atmospheric-excavator-glow.png
 
