@@ -13,6 +13,9 @@ itemCapacity: 20
 researchCostMultiplier: 0.5
 arrows: 1
 arrowSpacing: 0
+arrowColor: e79f53
+baseArrowColor: 000000
+
 
 drillEffect: {
   type: WaveEffect
@@ -28,9 +31,8 @@ drillEffect: {
   type: smoke
   strokeFrom: 1.8
   strokeTo: 0.1
-  layer:0
   baseRotation: .2
-  sizeFrom: 6.1
+  sizeFrom: 6.5
   sizeTo: 0.1
   colorFrom: 8f8385
   colorTo: cbc1c1
