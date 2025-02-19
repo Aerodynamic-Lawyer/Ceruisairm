@@ -5,7 +5,7 @@ size: 2
 category: production
 hasLiquids: false
 hardnessDrillMultiplier: 50
-drillTime: 300
+drillTime: 400
 hasPower: false
 tier: 2
 shake: 0.5
@@ -16,26 +16,25 @@ arrowSpacing: 0
 drillEffect: {
   type: WaveEffect
   sizeFrom: 0.1
-  sizeTo: 8.6
-  strokeFrom: 0.8
+  sizeTo: 9.6
+  strokeFrom: 1.8
   strokeTo: 0.1
   colorFrom: 8f8d87
   colorTo: 6b6a66
   lifetime: 20
 }
 drillEffect: {
-  type: smokePuff
+  type: smoke
   layer:0
   baseRotation: .2
   sizeFrom: 0.1
   sizeTo: 6.6
-  strokeFrom: 0.8
-  strokeTo: 0.1
   colorFrom: 8f8385
-  colorTo: e1dcdc
-  lifetime: 15
+  colorTo: cbc1c1
+  lifetime: 80
 }
 requirements: [
   copper/10
 ]
 squareSprite: false
+
