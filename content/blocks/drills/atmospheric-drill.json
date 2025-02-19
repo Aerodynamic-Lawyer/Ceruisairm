@@ -11,6 +11,8 @@ tier: 2
 shake: 0.5
 itemCapacity: 20
 researchCostMultiplier: 0.5
+arrows: 1
+arrowSpacing: 0
 drillEffect: {
   type: WaveEffect
   sizeFrom: 0.1
