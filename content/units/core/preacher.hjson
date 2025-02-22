@@ -1,0 +1,14 @@
+type: mech
+name: Preacher
+description: Defends the Altar core, is equiped with ally healing weapons and the ability to build
+speed: 0.5
+flying: false
+health: 250
+hitSize: 10
+outlineColor: 17101a
+mechLegColor: 17101a
+]
+  weapons: [
+]
+researchCostMultiplier: 1.5
+research: 10j-00-ground-mounting-bay
