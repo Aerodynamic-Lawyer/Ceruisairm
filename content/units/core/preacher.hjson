@@ -7,8 +7,4 @@ health: 250
 hitSize: 10
 outlineColor: 17101a
 mechLegColor: 17101a
-]
-  weapons: [
-]
 researchCostMultiplier: 1.5
-research: 10j-00-ground-mounting-bay
