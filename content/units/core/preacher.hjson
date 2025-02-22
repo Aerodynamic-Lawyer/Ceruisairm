@@ -1,8 +1,8 @@
 type: mech
 name: Preacher
 description: Defends the Altar core, is equiped with ally healing weapons and the ability to build
-canBoost = true
-armor = 2
+canBoost: true
+armor: 2
 speed: 1.5
 flying: false
 health: 250
