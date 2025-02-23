@@ -1,6 +1,6 @@
 type: mech
 name: Preacher
-description: Defends the Altar core, is equiped with ally healing weapons and the ability to build
+description: Defends the Altar core, is equiped with a lighting field and the ability to fly
 canBoost: true
 legBaseOffset: -1
 armor: 2
@@ -35,6 +35,5 @@ abilities: [
     x: 0
     y: 0
     effectRadius: 0
-    status: asthosus-13m-05-status-control-corruption
   }
 ]
