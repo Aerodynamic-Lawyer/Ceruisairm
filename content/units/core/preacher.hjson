@@ -1,7 +1,6 @@
 type: mech
 name: Preacher
 description: Defends the Altar core, is equiped with a lighting field and the ability to fly
-canBoost: true
 legBaseOffset: -1
 armor: 2
 speed: 1.2
@@ -46,5 +45,62 @@ abilities: [
     interval: 3
   }
 ]
-
+  weapons: [
+    {
+      top: false
+      x: 0
+      name: preacher
+      recoil: 0.0
+      shootCone: 0
+        y: 0
+        reload: 0
+        rotate: false
+        mirror: true
+        alternate: true
+        shoot: {
+          shots: 1
+          
+        }
+        shootSound: energy-blade-launch
+        bullet: {
+          type: BasicBulletType
+          speed: 0
+          lifetime: .1
+          pierce: false
+          damage: 22
+          pierce: true
+          pierceCap: 2
+          width: 28
+          height: 12
+          sprite: empty-bullet
+          trailEffect: 
+          trailInterval: 0
+        }
+    }
+    {  
+      x: 0
+      y: 0
+      display: false
+      rotate: false
+      mirror: false
+      reload: 0
+      shootCone: 0
+      shootSound: energy-blade-hit
+      bullet: {
+        width: 0
+        speed: 0
+        lifetime: 0
+        despawnEffect: none
+        hitEffect: none
+        height: 0
+        collides: false
+        damage: 0
+        pierce: true
+        pierceBuilding: true
+        recoil: -24
+        impact: true
+      }
+    }
+]
+      
 
