@@ -62,6 +62,9 @@ abilities: [
           sprite: cerynthos-javellin-bullet
           teamColor: true
           shootSound: spark
+          collidesTeam: true
+          trailColor: b0e14e
+          lightColor: b0e14e
         }
     }
 ]
