@@ -1,6 +1,6 @@
 type: mech
 name: Preacher
-description: Defends the Altar core, is equiped with a lighting field and the ability to fly
+description: Defends the Altar core, is equiped with a lighting field and standard bullets
 legBaseOffset: -1
 armor: 2
 speed: 1.2
@@ -21,7 +21,7 @@ abilities: [
   {
     type: EnergyFieldAbility
     blinkSize: 0.0001
-    damage: 35
+    damage: 65
     reload: 45
     healPercent: 1
     hitUnits: true
@@ -35,25 +35,15 @@ abilities: [
     y: 0
     effectRadius: 0
   }
- {
-    type: MoveEffectAbility
-    minVelocity: 1.1
-    x: 0
-    y: -4.4
-    effect: artilleryTrailSmoke
-    teamColor: true
-    interval: 3
-  }
 ]
   weapons: [
     { 
       top: false
-      x: 0
-      name: preacher
+      x: 2
       recoil: 0.0
       shootCone: 0
         y: 0
-        reload: 0
+        reload: 15
         rotate: false
         mirror: true
         alternate: true
@@ -63,13 +53,16 @@ abilities: [
       
         bullet: {
           type: BasicBulletType
-          speed: 0
-          lifetime: 1
+          speed: 5
+          lifetime: 120
           pierce: false
-          damage: 0
+          damage: 40
           width: 1
           height: 1
-          sprite: empty-bullet   
+          sprite: javelin-bullet
+          teamColor: true
+          shootSound: spark
+          healPercent: 3
         }
     }
 ]
