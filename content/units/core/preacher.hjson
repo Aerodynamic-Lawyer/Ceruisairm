@@ -74,4 +74,4 @@ abilities: [
           height: 1
           sprite: empty-bullet
         }
-}
+]
