@@ -59,7 +59,6 @@ abilities: [
         alternate: true
         shoot: {
           shots: 1
-          
         }
       
         bullet: {
