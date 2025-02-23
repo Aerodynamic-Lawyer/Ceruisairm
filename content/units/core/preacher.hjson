@@ -59,7 +59,7 @@ abilities: [
           damage: 24
           width: 7
           height: 7
-          sprite: javellin-bullet
+          sprite: cerynthos-javellin-bullet
           teamColor: true
           shootSound: spark
         }
