@@ -4,10 +4,37 @@ description: Defends the Altar core, is equiped with ally healing weapons and th
 canBoost: true
 legBaseOffset: -1
 armor: 2
-speed: 1.5
+speed: 1.2
 flying: false
 health: 250
 hitSize: 10
 outlineColor: 17101a
 mechLegColor: 17101a
-researchCostMultiplier: 1.5
+omniMovement: true
+researchCostMultiplier: 0
+mineFloor: true
+mineWalls: true
+mineSpeed: 4.5
+mineTier: 1
+buildSpeed: 0.45
+itemCapacity: 20
+abilities: [
+  {
+    type: EnergyFieldAbility
+    blinkSize: 0.0001
+    damage: 22
+    reload: 75
+    healPercent: 1
+    hitUnits: true
+    hitBuildings: true
+    layer: 1
+    maxTargets: 4
+    range: 80
+    shootSound: spark
+    useAmmo: false
+    x: 0
+    y: 0
+    effectRadius: 0
+    status: asthosus-13m-05-status-control-corruption
+  }
+]
