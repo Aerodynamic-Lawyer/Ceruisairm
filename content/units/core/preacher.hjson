@@ -40,10 +40,10 @@ abilities: [
     { 
       top: false
       x: 2
-      recoil: 0.0
+      recoil: 1
       shootCone: 0
         y: 0
-        reload: 15
+        reload: 5
         rotate: false
         mirror: true
         alternate: true
