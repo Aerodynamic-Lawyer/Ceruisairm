@@ -40,6 +40,6 @@ drillEffect: {
   interp: pow2Out
 }
 requirements: [
-  zirconium/25
+  item-zirconium/25
 ]
 squareSprite: false
