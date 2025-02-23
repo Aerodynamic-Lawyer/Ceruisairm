@@ -40,6 +40,6 @@ drillEffect: {
   interp: pow2Out
 }
 requirements: [
-  copper/10
+  zirconium/25
 ]
 squareSprite: false
