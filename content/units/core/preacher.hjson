@@ -61,46 +61,21 @@ abilities: [
           shots: 1
           
         }
-        shootSound: energy-blade-launch
+      
         bullet: {
           type: BasicBulletType
           speed: 0
-          lifetime: .1
+          lifetime: 1
           pierce: false
-          damage: 22
+          damage: 0
           pierce: true
-          pierceCap: 2
-          width: 28
-          height: 12
+          pierceCap: 0
+          width: 1
+          height: 1
           sprite: empty-bullet
           trailEffect: 
           trailInterval: 0
         }
-    }
-    {  
-      x: 0
-      y: 0
-      display: false
-      rotate: false
-      mirror: false
-      reload: 0
-      shootCone: 0
-      shootSound: energy-blade-hit
-      bullet: {
-        width: 0
-        speed: 0
-        lifetime: 0
-        despawnEffect: none
-        hitEffect: none
-        height: 0
-        collides: false
-        damage: 0
-        pierce: true
-        pierceBuilding: true
-        recoil: -24
-        impact: true
-      }
-    }
 ]
       
 
