@@ -1,4 +1,9 @@
-type: mech
+type: legs
+legCount: 3
+legLength: 8
+legSpeed: 0.23
+legForwardScl: 0.56
+legMoveSpace: 0.9
 name: Preacher
 description: Defends the Altar core, is equiped with a lighting field and the ability to fly
 canBoost: true
