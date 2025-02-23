@@ -68,8 +68,6 @@ abilities: [
           lifetime: 1
           pierce: false
           damage: 0
-          pierce: true
-          pierceCap: 0
           width: 1
           height: 1
           sprite: empty-bullet
