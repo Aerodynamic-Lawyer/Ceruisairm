@@ -1,6 +1,0 @@
-name: Zirconium
-description: "An abundant metal on Cerynthos, its only really useful for basic structure and mechanisms"
-hardness: 2
-cost: 0.5
-alwaysUnlocked: true
-color: 533142
