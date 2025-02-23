@@ -23,7 +23,7 @@ abilities: [
     blinkSize: 0.0001
     damage: 65
     reload: 45
-    healPercent: 1
+    healPercent: 5
     hitUnits: true
     hitBuildings: true
     layer: 1
@@ -39,11 +39,11 @@ abilities: [
   weapons: [
     { 
       top: false
-      x: 2
+      x: 3.5
       recoil: 1
       shootCone: 0
         y: 0
-        reload: 5
+        reload: 10
         rotate: false
         mirror: true
         alternate: true
@@ -56,13 +56,12 @@ abilities: [
           speed: 5
           lifetime: 120
           pierce: false
-          damage: 40
+          damage: 24
           width: 7
           height: 7
-          sprite: javelin-bullet
+          sprite: javellin-bullet
           teamColor: true
           shootSound: spark
-          healPercent: 3
         }
     }
 ]
