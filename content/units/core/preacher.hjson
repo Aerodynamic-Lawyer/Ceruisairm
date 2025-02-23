@@ -46,7 +46,7 @@ abilities: [
   }
 ]
   weapons: [
-    {
+    { 
       top: false
       x: 0
       name: preacher
@@ -69,7 +69,7 @@ abilities: [
           damage: 0
           width: 1
           height: 1
-          sprite: empty-bullet
-    }    
-      
+          sprite: empty-bullet   
+        }
+    }
 ]
