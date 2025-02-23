@@ -57,8 +57,8 @@ abilities: [
           lifetime: 120
           pierce: false
           damage: 24
-          width: 7
-          height: 7
+          width: 10
+          height: 10
           sprite: cerynthos-javellin-bullet
           teamColor: true
           shootSound: spark
