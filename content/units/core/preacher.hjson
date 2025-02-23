@@ -42,3 +42,11 @@ abilities: [
     effectRadius: 0
   }
 ]
+weapons: [
+{
+  shootStatus: drag-reducer
+  bullet: {
+    knockback: -75
+  }
+}
+]
