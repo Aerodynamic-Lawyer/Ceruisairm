@@ -1,5 +1,4 @@
 type: walker
-allowLegStep: false
 legCount: 3
 legLength: 18
 legSpeed: 0.23
