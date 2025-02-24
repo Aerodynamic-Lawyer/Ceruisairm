@@ -54,7 +54,7 @@ abilities: [
         bullet: {
           type: BasicBulletType
           speed: 5
-          lifetime: 120
+          lifetime: 30
           pierce: false
           damage: 24
           width: 10
