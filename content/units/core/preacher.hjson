@@ -1,6 +1,6 @@
 type: walker
 type: legs
-legCount: 4
+legCount: 3
 legLength: 18
 legSpeed: 0.23
 legForwardScl: 1.56
