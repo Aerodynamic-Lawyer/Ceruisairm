@@ -5,7 +5,6 @@ legLength: 18
 legSpeed: 0.23
 legForwardScl: 1.56
 legMoveSpace: 1.4
-allowLegStep: false
 legGroupSize: 1
 name: Preacher
 description: Defends the Altar core, is equiped with a lighting field and standard repairing bullets
