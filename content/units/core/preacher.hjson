@@ -1,5 +1,5 @@
 type: legs
-legCount: 5
+legCount: 3
 legLength: 20
 legSpeed: 0.23
 legForwardScl: 0.9
