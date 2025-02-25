@@ -13,7 +13,6 @@ flying: false
 health: 250
 hitSize: 10
 outlineColor: 17101a
-mechLegColor: 17101a
 omniMovement: true
 researchCostMultiplier: 0
 mineFloor: true
