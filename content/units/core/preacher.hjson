@@ -6,6 +6,7 @@ legForwardScl: 0.9
 legMoveSpace: 1
 legGroupSize: 1
 legBaseOffset: 2
+allowLegStep: false
 name: Preacher
 description: Defends the Altar core, is equiped with a lighting field and standard repairing bullets
 armor: 2
