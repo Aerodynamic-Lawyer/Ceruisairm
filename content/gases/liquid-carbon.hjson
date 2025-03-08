@@ -1,0 +1,7 @@
+name: Carbon
+description: A biological compound in gas form, not that useful, mostly a waste product.
+gas: true
+temperature: 0.55
+heatCapacity: 0.8
+color: 373334
+details: "an essential part of any biological being, just like a biological being, its not very useful, i dont know whate else to tell you, maybe you'll find something better to use this for"
