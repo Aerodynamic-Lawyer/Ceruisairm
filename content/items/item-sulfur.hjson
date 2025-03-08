@@ -1,0 +1,10 @@
+name: Sulfur
+description: "Extremely brittle, highly flamable, used as incendiary ammo and basically anything that needs ignition."
+hardness: 2
+cost: 0.5
+alwaysUnlocked: false
+color: 5b6a5f
+flammability: 0.90
+explosiveness: 0.15
+charge: 0
+details: "You know... for how biologically dense this planet is we dont tend to see any coal around, at least on the surface, this is the best other option we have."
