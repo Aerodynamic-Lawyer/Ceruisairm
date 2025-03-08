@@ -3,7 +3,7 @@ description: "Extremely brittle, highly flamable, used as incendiary ammo and ba
 hardness: 2
 cost: 0.5
 alwaysUnlocked: true
-color: 5b6a5f
+color: d1bb62
 flammability: 0.90
 explosiveness: 0.15
 charge: 0
