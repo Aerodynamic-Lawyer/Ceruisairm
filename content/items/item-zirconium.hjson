@@ -1,6 +1,7 @@
 name: Zirconium
-description: "An abundant metal on Cerynthos, its only really useful for basic structure and mechanisms"
+description: "light, maleable and brittle metal, used for basic mechanisms and structures, not really useful beyond that."
 hardness: 2
 cost: 0.5
 alwaysUnlocked: true
 color: 533142
+details: "you ever wonder why we only use ores found on the surface? why are there so many just exposed to the elements? if there's so much stuff up here how dense are the ore formations below us?."
