@@ -5,7 +5,7 @@ size: 2
 category: production
 hasLiquids: false
 hardnessDrillMultiplier: 50
-drillTime: 400
+drillTime: 650
 hasPower: false
 tier: 2
 shake: 0.5
@@ -38,6 +38,16 @@ drillEffect: {
   colorTo: cbc1c1
   lifetime: 80
   interp: pow2Out
+}
+drillEffect: {
+  type: sparkShoot
+  sizeFrom: 3.1
+  sizeTo: 0.1
+  strokeFrom: 1.8
+  strokeTo: 0.1
+  colorFrom: fff5da
+  colorTo: f9dd8d
+  lifetime: 20
 }
 requirements: [
   item-zirconium/25
