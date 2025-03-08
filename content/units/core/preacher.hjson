@@ -29,7 +29,7 @@ abilities: [
     blinkSize: 0.0001
     damage: 65
     reload: 45
-    healPercent: 5
+    healPercent: 3
     hitUnits: true
     hitBuildings: true
     layer: 1
@@ -62,7 +62,7 @@ abilities: [
           speed: 5
           lifetime: 30
           pierce: false
-          damage: 24
+          damage: 16
           width: 10
           height: 10
           sprite: ceruisairm-javellin-bullet
