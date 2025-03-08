@@ -14,6 +14,7 @@ researchCostMultiplier: 0.5
 arrows: 1
 arrowSpacing: 0
 arrowColor: f3e5be
+glowColor: f3e5be
 baseArrowColor: 000000
 
 
