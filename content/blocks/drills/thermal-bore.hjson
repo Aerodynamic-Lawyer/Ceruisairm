@@ -1,0 +1,20 @@
+type: beamDrill
+name: Thermal bore
+description: Collects items from ore deposits in walls indefinitley using very concentrated heat, quite slow.
+range: 4
+tier: 2
+size: 2
+drillTime: 340
+ambientSound: drill
+ambientSoundVolume: 0.08
+consumes: {
+  power: 0.25
+}
+buildCostMultiplier: 2
+category: production
+researchCost: [
+  item-zirconium/6
+]
+requirements: [
+  item-zirconium/15
+]
