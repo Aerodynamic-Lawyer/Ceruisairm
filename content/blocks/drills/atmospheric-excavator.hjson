@@ -26,8 +26,6 @@ drillEffect: {
   colorFrom: 8f8d87
   colorTo: 6b6a66
   lifetime: 20
-}
-drillEffect: {
   type: smoke
   strokeFrom: 1.8
   strokeTo: 0.1
@@ -38,8 +36,6 @@ drillEffect: {
   colorTo: cbc1c1
   lifetime: 80
   interp: pow2Out
-}
-drillEffect: {
   type: sparkShoot
   sizeFrom: 3.1
   sizeTo: 0.1
