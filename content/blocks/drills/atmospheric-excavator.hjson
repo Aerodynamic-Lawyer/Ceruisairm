@@ -13,8 +13,7 @@ itemCapacity: 20
 researchCostMultiplier: 0.5
 arrows: 1
 arrowSpacing: 0
-arrowColor: f3e5be
-glowColor: f3e5be
+arrowColor: e79f53
 baseArrowColor: 000000
 
 
