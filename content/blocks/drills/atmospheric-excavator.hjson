@@ -5,7 +5,7 @@ size: 2
 category: production
 hasLiquids: false
 hardnessDrillMultiplier: 50
-drillTime: 650
+drillTime: 720
 hasPower: false
 tier: 2
 shake: 0.5
