@@ -65,7 +65,7 @@ abilities: [
           damage: 24
           width: 10
           height: 10
-          sprite: cerynthos-javellin-bullet
+          sprite: ceruisairm-javellin-bullet
           teamColor: true
           shootSound: spark
           collidesTeam: true
