@@ -1,1 +1,10 @@
-
+name: Lithium
+description: "Very light and slightly flamable metal, useless for structure, best utilized in electronics"
+hardness: 2
+cost: 0.5
+alwaysUnlocked: true
+color: 5b6a5f
+flammability: 0.10
+explosiveness: 0
+charge: 0.15
+details: "lets be honest, this thing isnt very useful, structurally... lets just say you wouldnt want to build your defenses out of this, a single wind will may as well collapse it, i doubt you'll use this for anything that isnt electronics"
