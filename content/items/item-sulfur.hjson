@@ -2,7 +2,7 @@ name: Sulfur
 description: "Extremely brittle, highly flamable, used as incendiary ammo and basically anything that needs ignition."
 hardness: 2
 cost: 0.5
-alwaysUnlocked: false
+alwaysUnlocked: true
 color: 5b6a5f
 flammability: 0.90
 explosiveness: 0.15
