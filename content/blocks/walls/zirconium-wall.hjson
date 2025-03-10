@@ -1,0 +1,12 @@
+type: Wall
+name: Zirconium wall
+description: A smaller wall, defends allied buildings from damage and blocks possible pathways, used to fill gaps between bigger walls
+size: 1
+health: 640
+armor: 6
+category: defense
+squareSprite: true
+requirements: [
+  item-zirconium/8
+] 
+researchCostMultiplier: 0.05
