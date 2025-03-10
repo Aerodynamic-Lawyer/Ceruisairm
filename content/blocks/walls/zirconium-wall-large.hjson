@@ -1,0 +1,12 @@
+type: Wall
+name: Large zirconium wall
+description: A wall of lage size, defends allied buildings from damage and blocks possible pathways.
+size: 2
+health: 2560
+armor: 6
+category: defense
+squareSprite: true
+requirements: [
+  item-zirconium/32
+] 
+researchCostMultiplier: 0.05
