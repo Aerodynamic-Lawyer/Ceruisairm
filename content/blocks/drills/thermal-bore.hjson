@@ -13,7 +13,8 @@ consumes: {
 buildCostMultiplier: 2
 category: production
 researchCost: [
-  item-zirconium/6
+  item-zirconium/16
+  item-lithium/8
 ]
 requirements: [
   item-zirconium/15
