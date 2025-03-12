@@ -34,8 +34,8 @@ optionalUseTime: 180
 optionalMultiplier: 2
 healPercent: 0.0466667
 requirements: [
-  01a-01-item-ferrinite/30
-  01a-02-item-demetite/30
+  item-zirconium/20
+  item-lithium/25
 ]
 category: effect
 drawer: {
