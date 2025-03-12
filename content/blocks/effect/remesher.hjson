@@ -11,9 +11,9 @@ effect: {
   colorFrom: b0e14e
   colorTo: 4bb942
   particles: 5
-  line: true
-  length: 6
-  baseLength: 3
+  line: false
+  length: 2
+  baseLength: 2
   strokeFrom: 1.6
   strokeTo: 1.6
   lifetime: 150
@@ -22,7 +22,7 @@ effect: {
   sizeInterp: pow2Out
 }
 consumes: {
-  power: 0.6
+  power: 0.8
   items: {
     items: [
     ]
