@@ -1,0 +1,55 @@
+
+type: RegenProjector
+name: Remesher
+description: Slowly mends any damage that nearby allied blocks have recieved, requires power.
+size: 2
+range: 9
+baseColor: d9ff8d
+squareSprite: false
+effect: {
+  type: ParticleEffect
+  colorFrom: b0e14e
+  colorTo: 4bb942
+  particles: 5
+  line: true
+  length: 6
+  baseLength: 3
+  strokeFrom: 1.6
+  strokeTo: 1.6
+  lifetime: 150
+  cone: 360
+  interp: pow2
+  sizeInterp: pow2Out
+}
+consumes: {
+  power: 0.6
+  items: {
+    items: [
+    ]
+    optional: true
+    booster: true
+  }
+}
+optionalUseTime: 180
+optionalMultiplier: 2
+healPercent: 0.0466667
+requirements: [
+  01a-01-item-ferrinite/30
+  01a-02-item-demetite/30
+]
+category: effect
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawPulseShape
+      square: false
+      color: b0e14e
+      layer: 110
+    }
+  ]
+} 
+researchCostMultiplier: 0.5
