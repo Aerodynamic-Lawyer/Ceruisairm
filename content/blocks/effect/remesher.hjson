@@ -32,7 +32,7 @@ consumes: {
 }
 optionalUseTime: 180
 optionalMultiplier: 2
-healPercent: 0.0466667
+healPercent: 0.0266667
 requirements: [
   item-zirconium/20
   item-lithium/25
