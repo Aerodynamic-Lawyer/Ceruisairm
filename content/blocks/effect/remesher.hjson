@@ -22,7 +22,7 @@ effect: {
   sizeInterp: pow2Out
 }
 consumes: {
-  power: 2
+  power: 1.50
   items: {
     items: [
     ]
