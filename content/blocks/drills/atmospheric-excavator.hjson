@@ -16,7 +16,7 @@ arrowSpacing: 0
 arrowColor: e79f53
 baseArrowColor: 000000
 drillEffect:
-   type: multiEffect
+   type: MultiEffect
     effects: [{
         type: sparkShoot
         colorFrom: f0dba0
@@ -33,7 +33,7 @@ drillEffect:
         offset: 1
         }
         {
-        type: waveEffect
+        type: WaveEffect
         colorFrom: 5d6672
         colorTo: 7f878f
         sizeFrom: 0.1
