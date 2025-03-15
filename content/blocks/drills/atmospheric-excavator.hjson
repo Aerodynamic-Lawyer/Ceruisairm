@@ -17,18 +17,48 @@ arrowColor: e79f53
 baseArrowColor: 000000
 
 
-drillEffect: {
-  type: smoke
-  strokeFrom: 1.8
-  strokeTo: 0.1
-  baseRotation: .2
-  sizeFrom: 6.5
-  sizeTo: 0.1
-  colorFrom: 8f8385
-  colorTo: cbc1c1
-  lifetime: 80
-  interp: pow2Out
-}
+drillEffect:
+   type: MultiEffect
+    effects: [{
+        type: sparkShoot
+        colorFrom: f0dba0
+        colorTo: e79f53
+        particles: 9
+        cone: 360
+        length: 2
+        baseLength: 22
+        lightScl: 3
+        lightOpacity: 2
+        spin: 0
+        sizeFrom: 2.5
+        sizeTo: 0 
+        offset: 1
+        }
+        {
+        type: WaveEffect
+        colorFrom: 5d6672
+        colorTo: 7f878f
+        sizeFrom: 0.1
+        sizeTo: 9.5
+        lightScl: 3
+        lightOpacity: 1
+        sides: 0
+        lifetime: 40
+        rotation: 0
+        strokeFrom: 5
+        strokeTo: 0
+        }
+        {
+        type: smoke
+        strokeFrom: 1.8
+        strokeTo: 0.1
+        baseRotation: .2
+        sizeFrom: 6.5
+        sizeTo: 0.1
+        colorFrom: 8f8385
+        colorTo: cbc1c1
+        lifetime: 80
+        interp: pow2Out
 requirements: [
   item-zirconium/25
 ]
