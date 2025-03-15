@@ -15,7 +15,7 @@ arrows: 1
 arrowSpacing: 0
 arrowColor: e79f53
 baseArrowColor: 000000
-drillEffect:
+drillEffect:{
    type: MultiEffect
     effects: [{
         type: ParticleEffect 
@@ -59,6 +59,7 @@ drillEffect:
         interp: pow2Out
         }
         ]
+        }
 requirements: [
   item-zirconium/25
 ]
