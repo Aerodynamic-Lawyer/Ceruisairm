@@ -37,7 +37,7 @@ drillEffect:{
         colorFrom: 5d6672
         colorTo: 7f878f
         sizeFrom: 0.1
-        sizeTo: 9.5
+        sizeTo: 11.5
         lightScl: 3
         lightOpacity: 1
         sides: 0
