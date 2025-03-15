@@ -1,0 +1,86 @@
+type: tank
+name: Kindle
+description: Slips through enemy defenses and explodes to attack, diyng in he process.
+hitSize: 8
+treadPullOffset: 3
+omniMovement: false
+faceTarget: false
+outlineColor: 17101a
+speed: 2.2
+rotateSpeed: 6
+health: 320
+armor: 0
+itemCapacity: 0
+hitSize: 13
+treadRects: [
+  {
+    x: 9
+    y: -26
+    width: 18
+    height: 48
+  }
+]
+weapons: [
+{ 
+name: kindle-bomb
+    
+    shootY: 0
+    shootX: 0
+    x: 0
+    y: 0
+    layerOffset: -0.01
+    mirror: false
+    rotate: false
+    shootCone: 180
+    rotationLimit: 0
+    recoil: 0
+    reload: 60
+    shootSound: explosion
+    shootOnDeath: true
+
+    bullet: {
+type: ExplosionBulletType
+splashDamage: 90
+splashDamageRadius: 28
+incendChance: 1
+incendSpread: 10
+incendAmount: 5
+
+shootEffect: {
+    type: MultiEffect
+    effects: [{
+        type: ParticleEffect 
+        colorFrom: ff9548
+        colorTo: c75432
+        particles: 9
+        cone: 360
+        length: 0
+        baseLength: 22
+        lightScl: 3
+        lightOpacity: 2
+        spin: 0
+        line: true
+        sizeFrom: 2.5
+        sizeTo: 0 
+        offset: 1
+        }
+        {
+        type: WaveEffect
+        colorFrom: 7f878f
+        colorTo: #3c3c4f
+        sizeFrom: 0
+        sizeTo: 28
+        lightScl: 3
+        lightOpacity: 1
+        sides: 0
+        lifetime: 70
+        rotation: 0
+        strokeFrom: 5
+        strokeTo: 0
+        }
+]
+}
+}
+}
+]
+researchCostMultiplier: 1.5
