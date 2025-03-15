@@ -59,6 +59,8 @@ drillEffect:
         colorTo: cbc1c1
         lifetime: 80
         interp: pow2Out
+        }
+        ]
 requirements: [
   item-zirconium/25
 ]
