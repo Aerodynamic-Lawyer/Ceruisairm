@@ -15,8 +15,6 @@ arrows: 1
 arrowSpacing: 0
 arrowColor: e79f53
 baseArrowColor: 000000
-
-
 drillEffect:
    type: multiEffect
     effects: [{
