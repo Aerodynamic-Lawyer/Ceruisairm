@@ -67,13 +67,13 @@ shootEffect: {
         {
         type: WaveEffect
         colorFrom: 7f878f
-        colorTo: #3c3c4f
+        colorTo: 3c3c4f
         sizeFrom: 0
         sizeTo: 28
         lightScl: 3
         lightOpacity: 1
         sides: 0
-        lifetime: 70
+        lifetime: 30
         rotation: 0
         strokeFrom: 5
         strokeTo: 0
