@@ -40,7 +40,7 @@ name: kindle-bomb
 
     bullet: {
 type: ExplosionBulletType
-splashDamage: 90
+splashDamage: 130
 splashDamageRadius: 28
 incendChance: 1
 incendSpread: 10
