@@ -1,6 +1,6 @@
 type: tank
 name: Kindle
-description: Slips through enemy defenses and explodes to attack, diyng in he process.
+description: Slips through enemy defenses and explodes to attack, dying in the process.
 hitSize: 8
 treadPullOffset: 3
 omniMovement: false
