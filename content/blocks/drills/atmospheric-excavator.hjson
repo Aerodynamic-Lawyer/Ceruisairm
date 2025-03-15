@@ -18,13 +18,13 @@ baseArrowColor: 000000
 drillEffect:
    type: MultiEffect
     effects: [{
-        type: sparkShoot
+        type: ParticleEffect 
         colorFrom: f0dba0
         colorTo: e79f53
         particles: 9
         cone: 360
-        length: 2
-        baseLength: 22
+        length: 8
+        baseLength: 4
         lightScl: 3
         lightOpacity: 2
         spin: 0
@@ -47,7 +47,7 @@ drillEffect:
         strokeTo: 0
         }
         {
-        type: smoke
+        type: ParticleEffect 
         strokeFrom: 1.8
         strokeTo: 0.1
         baseRotation: .2
