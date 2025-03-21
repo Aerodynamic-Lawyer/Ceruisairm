@@ -1,7 +1,7 @@
 type: ItemTurret
 name: Repulse
 description: Fires low damaging, piercing bolts at enemies, excels in knockback
-size: 1
+size: 2
 category: turret
 researchCostMultiplier: 0.05
 shootSound: artillery
@@ -30,14 +30,14 @@ ammoTypes: {
     type: ArtilleryBulletType
     width: 7
     height: 9
-    speed: 2
+    speed: 5
     lifetime: 80
     splashDamage: 0
     splashDamageRadius: 0
     knockback: 25
-    frontColor: cba49b
-    backColor: ac7878
-    trailColor: ac7878
+    frontColor: ac7878
+    backColor: 7c515c
+    trailColor: 7c515c
     trailWidth: 2
     trailLength: 8
   }
