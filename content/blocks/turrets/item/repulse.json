@@ -35,9 +35,9 @@ ammoTypes: {
     splashDamage: 0
     splashDamageRadius: 0
     knockback: 25
-    frontColor: ac7878
-    backColor: 7c515c
-    trailColor: 7c515c
+    frontColor: e5776e
+    backColor: ab2f4a
+    trailColor: ab2f4a
     trailWidth: 2
     trailLength: 8
   }
