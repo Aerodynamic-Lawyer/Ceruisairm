@@ -27,7 +27,7 @@ shoot: {
 }
 ammoTypes: {
   item-zirconium: {
-    type: ArtilleryBulletType
+    type: BasicBulletType
     width: 7
     height: 9
     speed: 5
