@@ -26,7 +26,7 @@ shoot: {
   shots: 1
 }
 ammoTypes: {
-  01a-01-item-ferrinite: {
+  item-zirconium: {
     type: ArtilleryBulletType
     width: 7
     height: 9
