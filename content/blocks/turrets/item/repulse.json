@@ -19,7 +19,7 @@ outlineColor: 17101a
 targetAir: true
 targetGround: true
 reload: 76
-range: 215
+range: 185
 velocityRnd: 0.12
 inaccuracy: 0
 shoot: {
@@ -31,7 +31,7 @@ ammoTypes: {
     width: 7
     height: 9
     speed: 5
-    lifetime: 40
+    lifetime: 35
     knockback: 10
     pierce: true
     pierceCap: 1
