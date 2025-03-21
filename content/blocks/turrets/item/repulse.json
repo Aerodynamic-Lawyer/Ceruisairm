@@ -32,7 +32,7 @@ ammoTypes: {
     height: 9
     speed: 5
     lifetime: 80
-    knockback: 25
+    knockback: 10
     frontColor: e5776e
     backColor: ab2f4a
     trailColor: ab2f4a
