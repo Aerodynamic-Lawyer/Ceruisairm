@@ -2,6 +2,7 @@ type: ItemTurret
 name: Repulse
 description: Fires low damaging, piercing bolts at enemies, excels in knockback
 size: 2
+squareSprite: false
 category: turret
 researchCostMultiplier: 0.05
 shootSound: artillery
