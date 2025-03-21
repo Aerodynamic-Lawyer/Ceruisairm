@@ -18,7 +18,7 @@ coolant: {
 outlineColor: 17101a
 targetAir: true
 targetGround: true
-reload: 76
+reload: 68
 range: 185
 velocityRnd: 0.12
 inaccuracy: 0
@@ -28,14 +28,14 @@ shoot: {
 ammoTypes: {
   item-zirconium: {
     type: BasicBulletType
-    damage: 18
+    damage: 38
     width: 7
     height: 9
     speed: 5
     lifetime: 35
     knockback: 10
     pierce: true
-    pierceCap: 1
+    pierceCap: 2
     frontColor: f9c8c8
     backColor: c87982
     trailColor: c87982
