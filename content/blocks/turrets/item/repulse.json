@@ -28,6 +28,7 @@ shoot: {
 ammoTypes: {
   item-zirconium: {
     type: BasicBulletType
+    damage: 18
     width: 7
     height: 9
     speed: 5
@@ -46,3 +47,4 @@ drawer: {
   type: DrawTurret
   basePrefix: spiky-
 }
+
