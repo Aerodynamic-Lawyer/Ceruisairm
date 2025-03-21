@@ -32,8 +32,6 @@ ammoTypes: {
     height: 9
     speed: 5
     lifetime: 80
-    splashDamage: 0
-    splashDamageRadius: 0
     knockback: 25
     frontColor: e5776e
     backColor: ab2f4a
