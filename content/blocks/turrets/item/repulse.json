@@ -46,5 +46,33 @@ ammoTypes: {
 drawer: {
   type: DrawTurret
   basePrefix: spiky-
+  parts: [
+    {
+      type: RegionPart
+      suffix: -side
+      mirror: true
+      under: false
+      progress: recoil
+      moveY: 1.5
+      moveRot: -10
+    }
+    {
+      type: RegionPart
+      suffix: -barrel
+      mirror: true
+      under: true
+      progress: recoil
+      moveY: -1
+      moveRot: -12
+    }
+    {
+      type: RegionPart
+      suffix: -beams
+      mirror: false
+      under: false
+      progress: recoil
+      moveY: -1
+      moveRot: 0
+    }
+  ]
 }
-
