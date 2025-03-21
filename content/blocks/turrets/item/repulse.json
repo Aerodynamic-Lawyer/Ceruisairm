@@ -1,0 +1,48 @@
+type: ItemTurret
+name: Repulse
+description: Fires low damaging, piercing bolts at enemies, excels in knockback
+size: 1
+category: turret
+researchCostMultiplier: 0.05
+shootSound: artillery
+requirements: [
+ item-zirconium/115
+ item-lithium/35
+]
+coolant: {
+  type: ConsumeCoolant
+  allowGas: true
+  allowLiquid: true
+  amount: 0.1
+}
+outlineColor: 17101a
+targetAir: true
+targetGround: true
+reload: 76
+range: 160
+velocityRnd: 0.12
+inaccuracy: 0
+shoot: {
+  shots: 1
+}
+ammoTypes: {
+  01a-01-item-ferrinite: {
+    type: ArtilleryBulletType
+    width: 7
+    height: 9
+    speed: 2
+    lifetime: 80
+    splashDamage: 0
+    splashDamageRadius: 0
+    knockback: 25
+    frontColor: cba49b
+    backColor: ac7878
+    trailColor: ac7878
+    trailWidth: 2
+    trailLength: 8
+  }
+}
+drawer: {
+  type: DrawTurret
+  basePrefix: spiky-
+}
