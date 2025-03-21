@@ -31,11 +31,11 @@ ammoTypes: {
     width: 7
     height: 9
     speed: 5
-    lifetime: 80
+    lifetime: 30
     knockback: 10
-    frontColor: e5776e
-    backColor: ab2f4a
-    trailColor: ab2f4a
+    frontColor: d85349
+    backColor: d85349
+    trailColor: d85349
     trailWidth: 2
     trailLength: 8
   }
