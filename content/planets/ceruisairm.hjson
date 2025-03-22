@@ -28,13 +28,13 @@ mesh: [
     octaves: 1
     persistence: 1
     scl: .3
-    mag: .55
+    mag: .33
   }
 {
     //pegmatite
     type: NoiseMesh
     planet: ceruisairm
-    divisions: 8
+    divisions: 5
     seed: 8
     radius: 1.133
     color1: 3a3446
@@ -42,7 +42,21 @@ mesh: [
     octaves: 3
     persistence: 1.2
     scl: 0.23
-    mag: 0.77
+    mag: 0.55
+  }
+{
+    //spodumene
+    type: NoiseMesh
+    planet: ceruisairm
+    divisions: 5
+    seed: 12
+    radius: 1.133
+    color1: f8efed
+    color2: e3c5c5
+    octaves: 3
+    persistence: 1.2
+    scl: 0.23
+    mag: 0.55
   }
 ]
 
