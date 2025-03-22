@@ -1,0 +1,80 @@
+type: ItemTurret
+name: Carcinate
+description: Fires minimal damage, high temperature bullets at enemies.
+size: 1
+squareSprite: false
+category: turret
+researchCostMultiplier: 0.05
+shootSound: shoot-dull
+requirements: [
+ item-zirconium/115
+ item-lithium/35
+]
+coolant: {
+  type: ConsumeCoolant
+  allowGas: true
+  allowLiquid: true
+  amount: 0.1
+}
+outlineColor: 17101a
+targetAir: true
+targetGround: true
+reload: 32
+range: 145
+velocityRnd: 0.12
+inaccuracy: 1
+shoot: {
+  shots: 2
+  shotDelay: 75
+}
+ammoTypes: {
+  item-sulfur: {
+    type: BasicBulletType
+    damage: 15
+    width: 5
+    height: 7
+    speed: 7
+    lifetime: 25
+    knockback: 0
+    pierce: false
+    pierceCap: 1
+    frontColor: f0dba0
+    backColor: e79f53
+    trailColor: e79f53
+    trailWidth: 2
+    trailLength: 4
+  }
+}
+drawer: {
+  type: DrawTurret
+  basePrefix: turrety-
+  parts: [
+    {
+      type: RegionPart
+      suffix: -side
+      mirror: true
+      under: false
+      progress: recoil
+      moveY: -1.8
+      moveRot: -15
+    }
+    {
+      type: RegionPart
+      suffix: -barrel
+      mirror: true
+      under: true
+      progress: recoil
+      moveY: -1
+      moveRot: -12
+    }
+    {
+      type: RegionPart
+      suffix: -beams
+      mirror: false
+      under: false
+      progress: recoil
+      moveY: -1
+      moveRot: 0
+    }
+  ]
+}
