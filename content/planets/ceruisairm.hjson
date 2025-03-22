@@ -16,7 +16,7 @@ mesh: [
   }
 ]
 -------------------
-orbitRadius: 34
+orbitRadius:34
 sectorSize: 0.7
 allowLaunchSchematics: false
 allowLaunchToNumbered: false
