@@ -9,7 +9,7 @@ mesh: [
     seed: 314
     color1: b9b0a2
     color2: 958d81
-    divisions: 5.4
+    divisions: 6
     radius: 8.015
     octaves: 7.8
     persistence: 0.43
@@ -25,7 +25,7 @@ mesh: [
     seed: 234
     color1: 554641
     color2: 43342f
-    divisions: 5.7
+    divisions: 6
     radius: 1.03
     octaves: 7.3
     persistence: 0.62
