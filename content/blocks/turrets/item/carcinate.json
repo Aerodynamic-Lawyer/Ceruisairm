@@ -1,4 +1,4 @@
-type: ItemTurret
+ type: ItemTurret
 name: Carcinate
 description: Fires minimal damage, high temperature bullets at enemies.
 size: 1
@@ -55,7 +55,8 @@ drawer: {
       mirror: true
       under: false
       progress: warmup
-      moveY: 0
+      moveY: 1
+      moveX: 1
       moveRot: -35
     }
     {
