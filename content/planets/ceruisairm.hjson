@@ -13,6 +13,8 @@ mesh: [
     color2: 5499ba
     octaves: 1
     persistence: 1
+    scl: 0
+    mag: 0
   }
 ]
 
