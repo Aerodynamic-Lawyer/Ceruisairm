@@ -1,0 +1,53 @@
+localizedName: Ceruisairm
+description: "A planet filled with life, if it gets in the way, you know what to do."
+alwaysUnlocked: true
+mesh: [
+ {
+    //water
+    type: NoiseMesh
+    planet: ceruisairm
+    divisions: 7
+    seed: 1
+    radius: 1.729
+    color1: 587d89
+    color2: 5e95a8
+    octaves: 0
+    persistence: 0
+  }
+]
+  -------------------
+orbitRadius: 34
+sectorSize: 0.7
+allowLaunchSchematics: false
+allowLaunchToNumbered: false
+allowLaunchLoadout: true
+allowSectorInvasion: false
+startSector: 0
+orbitSpacing: 1
+radius: 1.5
+minZoom: 1.5
+drawOrbit: true
+atmosphereRadIn: 0
+atmosphereRadOut: 0.3
+accessible: true
+updateLighting: false
+sectorSeed: 14513
+bloom: false
+visible: true
+atmosphereColor: 9fb9e7
+iconColor: 787dc5
+hasAtmosphere: true
+allowWaveSimulation: true
+clearSectorOnLose: true
+allowWaves: true
+prebuildBase: false
+defaultCore: core-altar
+parent: sun
+solarSystem: sun
+launchCandidates: []
+itemWhitelist: [
+  "item-zirconium"
+  "item-lithium"
+  "item-sulfur"
+  "sand"
+]
