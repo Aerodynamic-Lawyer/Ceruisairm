@@ -41,7 +41,7 @@ mesh: [
     seed: 741
     color1: 6c92c2
     color2: 546295
-    divisions: 5.6
+    divisions: 6
     radius: 1.00
     octaves: 8.4
     persistence: 0.85
