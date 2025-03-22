@@ -19,7 +19,7 @@ coolant: {
 outlineColor: 17101a
 targetAir: true
 targetGround: true
-reload: 32
+reload: 64
 range: 145
 velocityRnd: 0.12
 inaccuracy: 1
@@ -54,27 +54,29 @@ drawer: {
       suffix: -side
       mirror: true
       under: false
-      progress: recoil
-      moveY: -1.8
-      moveRot: -15
+      progress: warmup
+      moveY: 0
+      moveRot: -35
     }
     {
       type: RegionPart
       suffix: -barrel
-      mirror: true
+      mirror: false
       under: true
       progress: recoil
-      moveY: -1
-      moveRot: -12
+      heatProgress: recoil
+      moveY: -0.5
+      moveRot: 0
     }
     {
       type: RegionPart
-      suffix: -beams
-      mirror: false
+      suffix: -wing
+      mirror: true
       under: false
-      progress: recoil
-      moveY: -1
-      moveRot: 0
+      progress: warmup
+      moveY: -3
+      moveX: 5
+      moveRot: -25
     }
   ]
 }
