@@ -22,13 +22,13 @@ mesh: [
     planet: ceruisairm
     divisions: 6
     seed: 12
-    radius: 0.965
+    radius: 1.112
     color1: d3ae8d
     color2: f7cba4
     octaves: 1
     persistence: 1
     scl: .3
-    mag: .22
+    mag: .55
   }
 {
     //pegmatite
@@ -36,13 +36,13 @@ mesh: [
     planet: ceruisairm
     divisions: 8
     seed: 8
-    radius: 1.033
+    radius: 1.133
     color1: 3a3446
     color2: 353049
     octaves: 3
     persistence: 1.2
     scl: 0.23
-    mag: 0.67
+    mag: 0.77
   }
 ]
 
