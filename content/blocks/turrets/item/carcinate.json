@@ -75,9 +75,9 @@ drawer: {
       mirror: true
       under: true
       progress: warmup
-      moveY: -3
+      moveY: -2.5
       moveX: 3
-      moveRot: -20
+      moveRot: -15
     }
   ]
 }
