@@ -72,6 +72,20 @@ mesh: [
     scl: 0.23
     mag: 0.55
   }
+{
+    //red soil
+    type: NoiseMesh
+    planet: ceruisairm
+    divisions: 5
+    seed: 56
+    radius: 1.133
+    color1: 83736e
+    color2: 67534f
+    octaves: 3
+    persistence: 1.2
+    scl: 0.23
+    mag: 0.55
+  }
  {
  //biomass
     type: NoiseMesh
