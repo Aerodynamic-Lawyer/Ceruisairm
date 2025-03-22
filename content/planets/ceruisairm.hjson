@@ -80,7 +80,7 @@ mesh: [
     color1: 6c92c2
     color2: 546295
     divisions: 5.7
-    radius: 0.83
+    radius: 1.143
     octaves: 7.3
     persistence: 0.62
 	coct: 1.8
@@ -96,7 +96,7 @@ mesh: [
     color1: 8ab0b9
     color2: 658395
     divisions: 5.7
-    radius: 0.83
+    radius: 1.143
     octaves: 7.3
     persistence: 0.62
 	coct: 1.8
@@ -124,7 +124,7 @@ updateLighting: false
 sectorSeed: 14513
 bloom: false
 visible: true
-atmosphereColor: 9fb9e7
+atmosphereColor: 8ab0b9
 iconColor: 787dc5
 hasAtmosphere: true
 allowWaveSimulation: true
