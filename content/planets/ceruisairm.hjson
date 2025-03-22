@@ -7,8 +7,8 @@ mesh: [
     type: NoiseMesh
 	bloom: true
     seed: 314
-    color1: 2b7cb4
-    color2: 1b5f84
+    color1: 866a5a
+    color2: bc9f83
     divisions: 5.4
     radius: 0.815
     octaves: 7.8
@@ -19,12 +19,12 @@ mesh: [
     mag: 1.2
  }
  {
- //dead biomass
+ //stone
     type: NoiseMesh
 	bloom: false
     seed: 234
-    color1: 3e3d79
-    color2: 2b2a61
+    color1: 554641
+    color2: 43342f
     divisions: 5.7
     radius: 0.83
     octaves: 7.3
@@ -55,8 +55,8 @@ mesh: [
     type: NoiseMesh
 	bloom: true
     seed: 276
-    color1: 7f7583
-    color2: 615864
+    color1: 5d6672
+    color2: 39434f
     divisions: 6.1
     radius: 0.78
     octaves: 9.3
