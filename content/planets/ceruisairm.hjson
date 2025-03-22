@@ -80,7 +80,7 @@ mesh: [
     color1: 6c92c2
     color2: 546295
     divisions: 5.7
-    radius: 1.143
+    radius: 1.134
     octaves: 7.3
     persistence: 0.62
 	coct: 1.8
@@ -96,7 +96,7 @@ mesh: [
     color1: 8ab0b9
     color2: 658395
     divisions: 5.7
-    radius: 1.143
+    radius: 1.134
     octaves: 7.3
     persistence: 0.62
 	coct: 1.8
@@ -114,7 +114,7 @@ allowLaunchLoadout: true
 allowSectorInvasion: false
 startSector: 0
 orbitSpacing: 1
-radius: 1.6
+radius: 1.5
 minZoom: 1.5
 drawOrbit: true
 atmosphereRadIn: 0
