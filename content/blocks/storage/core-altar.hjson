@@ -1,0 +1,21 @@
+type: CoreBlock
+name: Core: Altar
+description: The heart of a base, when none are left on a sector, it is lost
+requirements: [
+  item-zirconium/1580
+  item-lithium/860
+]
+isFirstTier: true
+size: 4
+squareSprite: false
+alwaysUnlocked: true
+unitType: preacher
+health: 3740
+itemCapacity: 3400
+unitCapModifier: 12
+category: effect
+research: {
+  root: true
+  name: Ceruisairm
+  requiresUnlock: false
+}
