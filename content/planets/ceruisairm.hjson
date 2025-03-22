@@ -22,7 +22,7 @@ mesh: [
     planet: ceruisairm
     divisions: 6
     seed: 12
-    radius: 1.112
+    radius: 1.132
     color1: d3ae8d
     color2: f7cba4
     octaves: 1
@@ -58,6 +58,21 @@ mesh: [
     scl: 0.23
     mag: 0.55
   }
+{
+    //zirconic stone
+    type: NoiseMesh
+    planet: ceruisairm
+    divisions: 5
+    seed: 12
+    radius: 1.133
+    color1: 7c515c
+    color2: 533142
+    octaves: 3
+    persistence: 1.2
+    scl: 0.23
+    mag: 0.55
+  }
+
 ]
 
 orbitRadius:34
