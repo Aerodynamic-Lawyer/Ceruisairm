@@ -11,8 +11,8 @@ mesh: [
     radius: 1.729
     color1: 587d89
     color2: 5e95a8
-    octaves: 0
-    persistence: 0
+    octaves: 0.1
+    persistence: 0.1
   }
 ]
 
