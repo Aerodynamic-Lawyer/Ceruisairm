@@ -3,98 +3,30 @@ description: "A planet filled with life, if it gets in the way, you know what to
 alwaysUnlocked: true
 mesh: [
  {
-    //water
+ //green
     type: NoiseMesh
-    planet: ceruisairm
-    divisions: 6
-    seed: 8
-    radius: 1.159
-    color1: 347ca2
-    color2: 5499ba
-    octaves: 1
-    persistence: 1
-    scl: 0
-    mag: 0
-  }
-{
-    //sand
-    type: NoiseMesh
-    planet: ceruisairm
-    divisions: 6
-    seed: 12
-    radius: 1.132
-    color1: d3ae8d
-    color2: f7cba4
-    octaves: 1
-    persistence: 1
-    scl: .3
-    mag: .33
-  }
-{
-    //pegmatite
-    type: NoiseMesh
-    planet: ceruisairm
-    divisions: 5
-    seed: 8
-    radius: 1.133
-    color1: 3a3446
-    color2: 353049
-    octaves: 3
-    persistence: 1.2
-    scl: 0.23
-    mag: 0.55
-  }
-{
-    //spodumene
-    type: NoiseMesh
-    planet: ceruisairm
-    divisions: 5
-    seed: 12
-    radius: 1.133
-    color1: dbd7c3
-    color2: b0a698
-    octaves: 3
-    persistence: 1.2
-    scl: 0.23
-    mag: 0.55
-  }
-{
-    //blue soil
-    type: NoiseMesh
-    planet: ceruisairm
-    divisions: 5
-    seed: 11
-    radius: 1.133
-    color1: 243249
-    color2: 1a213d
-    octaves: 3
-    persistence: 1.2
-    scl: 0.23
-    mag: 0.55
-  }
-{
-    //red soil
-    type: NoiseMesh
-    planet: ceruisairm
-    divisions: 5
-    seed: 56
-    radius: 1.133
-    color1: 83736e
-    color2: 67534f
-    octaves: 3
-    persistence: 1.2
-    scl: 0.23
-    mag: 0.55
-  }
+	bloom: true
+    seed: 314
+    color1: b0e14e
+    color2: b0e14e
+    divisions: 5.4
+    radius: 0.815
+    octaves: 7.8
+    persistence: 0.43
+	coct: 1.5
+    cper: 2.1
+    scl: 0.54
+    mag: 1.2
+ }
  {
- //biomass
+ //red
     type: NoiseMesh
 	bloom: false
     seed: 163
-    color1: 6c92c2
-    color2: 546295
+    color1: c26c6c
+    color2: c26c6c
     divisions: 5.7
-    radius: 1.08
+    radius: 0.83
     octaves: 7.3
     persistence: 0.62
 	coct: 1.8
@@ -103,20 +35,36 @@ mesh: [
     mag: 1.1
  }
  {
- //greenmass
+ //yellow
     type: NoiseMesh
-	bloom: false
-    seed: 75
-    color1: 8ab0b9
-    color2: 658395
-    divisions: 5.7
-    radius: 1.08
-    octaves: 7.3
-    persistence: 0.62
-	coct: 1.8
-    cper: 2.2
-    scl: 0.49
-    mag: 1.1
+	bloom: true
+    seed: 821
+    color1: ffd37f
+    color2: ffd37f
+    divisions: 5.6
+    radius: 0.80
+    octaves: 8.4
+    persistence: 0.85
+	coct: 2.3
+    cper: 2.6
+    scl: 0.83
+    mag: 1.6
+ }
+ {
+ //blue
+    type: NoiseMesh
+	bloom: true
+    seed: 374
+    color1: 6c92c2
+    color2: 6c92c2
+    divisions: 6.1
+    radius: 0.78
+    octaves: 9.3
+    persistence: 0.85
+	coct: 3.2
+    cper: 2.6
+    scl: 0.83
+    mag: 1.8
  }
 ]
 
