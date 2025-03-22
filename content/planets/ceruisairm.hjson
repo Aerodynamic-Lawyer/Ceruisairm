@@ -59,14 +59,14 @@ mesh: [
     mag: 0.55
   }
 {
-    //zirconic stone
+    //blue soil
     type: NoiseMesh
     planet: ceruisairm
     divisions: 5
     seed: 11
     radius: 1.133
-    color1: 7c515c
-    color2: 533142
+    color1: 243249
+    color2: 1a213d
     octaves: 3
     persistence: 1.2
     scl: 0.23
@@ -80,7 +80,7 @@ mesh: [
     color1: 6c92c2
     color2: 546295
     divisions: 5.7
-    radius: 1.05
+    radius: 1.08
     octaves: 7.3
     persistence: 0.62
 	coct: 1.8
@@ -96,7 +96,7 @@ mesh: [
     color1: 8ab0b9
     color2: 658395
     divisions: 5.7
-    radius: 1.05
+    radius: 1.08
     octaves: 7.3
     persistence: 0.62
 	coct: 1.8
