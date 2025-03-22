@@ -7,8 +7,8 @@ mesh: [
     type: NoiseMesh
 	bloom: true
     seed: 314
-    color1: 866a5a
-    color2: bc9f83
+    color1: b9b0a2
+    color2: 958d81
     divisions: 5.4
     radius: 8.015
     octaves: 7.8
