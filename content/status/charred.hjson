@@ -1,0 +1,25 @@
+speedMultiplier : 0.75
+reloadMultiplier : 0.80
+damageMultiplier : 1
+damage: 0.0
+color : 271316
+name : "Charred"
+description: "The unit has been in contact with high temperatures, causing external damage, actions become slower because of it."
+
+effect : {
+    
+    type : MultiEffect
+    
+    effects : [
+        {
+            particles : 2
+            colorFrom : 5d6672
+            sizeFrom : 4
+            lifetime : 32
+            colorTo : 5d6672
+            sizeTo : 0
+            length : 11
+            type : ParticleEffect
+            cone : 360
+        }]
+}
