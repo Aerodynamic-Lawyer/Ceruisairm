@@ -3,14 +3,14 @@ description: "A planet filled with life, if it gets in the way, you know what to
 alwaysUnlocked: true
 mesh: [
  {
- //ocean
+ //soil
     type: NoiseMesh
 	bloom: true
     seed: 314
     color1: 866a5a
     color2: bc9f83
     divisions: 5.4
-    radius: 0.815
+    radius: 8.015
     octaves: 7.8
     persistence: 0.43
 	coct: 1.5
@@ -26,7 +26,7 @@ mesh: [
     color1: 554641
     color2: 43342f
     divisions: 5.7
-    radius: 0.83
+    radius: 1.03
     octaves: 7.3
     persistence: 0.62
 	coct: 1.8
@@ -42,7 +42,7 @@ mesh: [
     color1: 6c92c2
     color2: 546295
     divisions: 5.6
-    radius: 0.80
+    radius: 1.00
     octaves: 8.4
     persistence: 0.85
 	coct: 2.3
@@ -58,7 +58,7 @@ mesh: [
     color1: 5d6672
     color2: 39434f
     divisions: 6.1
-    radius: 0.78
+    radius: 1.00
     octaves: 9.3
     persistence: 0.85
 	coct: 3.2
@@ -76,7 +76,7 @@ allowLaunchLoadout: true
 allowSectorInvasion: false
 startSector: 0
 orbitSpacing: 1
-radius: 1.3
+radius: 1.2
 minZoom: 1.5
 drawOrbit: true
 atmosphereRadIn: 0
