@@ -1,5 +1,5 @@
-speedMultiplier : 0.75
-reloadMultiplier : 0.80
+speedMultiplier : 0.70
+reloadMultiplier : 0.75
 damageMultiplier : 1
 damage: 0.0
 color : 271316
@@ -13,7 +13,7 @@ effect : {
     effects : [
         {
             particles : 2
-            colorFrom : 5d6672
+            colorFrom : 252435
             sizeFrom : 4
             lifetime : 32
             colorTo : 5d6672
