@@ -38,7 +38,7 @@ mesh: [
  //biomass
     type: NoiseMesh
 	bloom: true
-    seed: 541
+    seed: 741
     color1: 6c92c2
     color2: 546295
     divisions: 5.6
