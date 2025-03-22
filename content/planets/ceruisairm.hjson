@@ -3,12 +3,12 @@ description: "A planet filled with life, if it gets in the way, you know what to
 alwaysUnlocked: true
 mesh: [
  {
- //green
+ //ocean
     type: NoiseMesh
 	bloom: true
     seed: 314
-    color1: b0e14e
-    color2: b0e14e
+    color1: 2b7cb4
+    color2: 1b5f84
     divisions: 5.4
     radius: 0.815
     octaves: 7.8
@@ -19,12 +19,12 @@ mesh: [
     mag: 1.2
  }
  {
- //red
+ //dead biomass
     type: NoiseMesh
 	bloom: false
-    seed: 163
-    color1: c26c6c
-    color2: c26c6c
+    seed: 234
+    color1: 3e3d79
+    color2: 2b2a61
     divisions: 5.7
     radius: 0.83
     octaves: 7.3
@@ -35,12 +35,12 @@ mesh: [
     mag: 1.1
  }
  {
- //yellow
+ //biomass
     type: NoiseMesh
 	bloom: true
-    seed: 821
-    color1: ffd37f
-    color2: ffd37f
+    seed: 541
+    color1: 6c92c2
+    color2: 546295
     divisions: 5.6
     radius: 0.80
     octaves: 8.4
@@ -51,12 +51,12 @@ mesh: [
     mag: 1.6
  }
  {
- //blue
+ //mountains
     type: NoiseMesh
 	bloom: true
-    seed: 374
-    color1: 6c92c2
-    color2: 6c92c2
+    seed: 276
+    color1: 7f7583
+    color2: 615864
     divisions: 6.1
     radius: 0.78
     octaves: 9.3
