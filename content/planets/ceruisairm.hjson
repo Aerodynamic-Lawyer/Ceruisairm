@@ -26,7 +26,7 @@ mesh: [
     color1: d3ae8d
     color2: f7cba4
     octaves: 1
-    persistence: .4
+    persistence: 1
     scl: .3
     mag: .22
   }
@@ -40,9 +40,9 @@ mesh: [
     color1: 3a3446
     color2: 353049
     octaves: 3
-    persistence: .2
+    persistence: 1.2
     scl: 0.23
-    mag: 0.55
+    mag: 0.67
   }
 ]
 
@@ -54,7 +54,7 @@ allowLaunchLoadout: true
 allowSectorInvasion: false
 startSector: 0
 orbitSpacing: 1
-radius: 1.4
+radius: 1.6
 minZoom: 1.5
 drawOrbit: true
 atmosphereRadIn: 0
