@@ -8,7 +8,7 @@ mesh: [
     planet: ceruisairm
     divisions: 6
     seed: 8
-    radius: 1.129
+    radius: 1.029
     color1: 347ca2
     color2: 5499ba
     octaves: 1
@@ -22,7 +22,7 @@ mesh: [
     planet: ceruisairm
     divisions: 6
     seed: 12
-    radius: 1.160
+    radius: 1.265
     color1: d3ae8d
     color2: f7cba4
     octaves: 1
@@ -36,7 +36,7 @@ mesh: [
     planet: ceruisairm
     divisions: 6
     seed: 8
-    radius: 1.233
+    radius: 1.333
     color1: 3a3446
     color2: 353049
     octaves: 3
