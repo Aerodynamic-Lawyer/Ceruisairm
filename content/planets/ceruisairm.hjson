@@ -6,13 +6,13 @@ mesh: [
     //water
     type: NoiseMesh
     planet: ceruisairm
-    divisions: 7
-    seed: 1
+    divisions: 6
+    seed: 8
     radius: 1.729
     color1: 587d89
     color2: 5e95a8
-    octaves: 0.1
-    persistence: 0.1
+    octaves: 1
+    persistence: 1
   }
 ]
 
