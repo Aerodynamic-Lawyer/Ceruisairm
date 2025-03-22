@@ -15,7 +15,7 @@ mesh: [
     persistence: 0
   }
 ]
-  -------------------
+-------------------
 orbitRadius: 34
 sectorSize: 0.7
 allowLaunchSchematics: false
