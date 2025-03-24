@@ -1,0 +1,14 @@
+type: Duct
+name: Airtight conveyor
+description: Transports items slowly, sealed from the outside world to prevent contamination from biological substances.
+category: distribution
+alwaysUnlocked: true
+research: core-altar
+researchCost: [
+  item-zirconium/8
+]
+speed: 12
+health: 65
+requirements: [
+  item-zirconium/2
+]
