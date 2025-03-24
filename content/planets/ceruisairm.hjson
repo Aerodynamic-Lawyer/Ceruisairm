@@ -72,7 +72,7 @@ cloudMesh: [
    type: HexSkyMesh
    planet: ceruisairm
    speed: 1.51
-   radius: 0.21
+   radius: 0.27
    divisions: 6
    color: c4ded720
    octaves: 3
@@ -84,7 +84,7 @@ cloudMesh: [
    type: HexSkyMesh
    planet: ceruisairm
    speed: 1.63
-   radius: 0.204
+   radius: 0.254
    divisions: 6
    color: 9db6b020
    octaves: 3
@@ -96,7 +96,7 @@ cloudMesh: [
    type: HexSkyMesh
    planet: ceruisairm
    speed: 1.42
-   radius: 0.192
+   radius: 0.292
    divisions: 6
    color: c4ded720
    octaves: 3
