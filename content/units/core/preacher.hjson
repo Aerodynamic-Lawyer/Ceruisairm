@@ -10,7 +10,7 @@ allowLegStep: false
 name: Preacher
 description: Defends the Altar core, is equiped with a lighting field and standard repairing bullets
 armor: 2
-speed: 1.6
+speed: 0.3
 flying: false
 health: 250
 hitSize: 10
