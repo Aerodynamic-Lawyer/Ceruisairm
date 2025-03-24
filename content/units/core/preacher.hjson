@@ -2,8 +2,8 @@ type: legs
 legCount: 2
 legLength: 17
 legSpeed: 0.23
-legForwardScl: 0.9
-legMoveSpace: 1
+legForwardScl: 6
+legMoveSpace: 5
 legGroupSize: 1
 legBaseOffset: 2
 allowLegStep: false
