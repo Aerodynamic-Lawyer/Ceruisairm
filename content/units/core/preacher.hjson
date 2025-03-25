@@ -1,6 +1,6 @@
 type: legs
-legCount: 20
-legLength: 19
+legCount: 100
+legLength: 80
 legSpeed: 0.23
 legForwardScl: 0.9
 legMoveSpace: 1
