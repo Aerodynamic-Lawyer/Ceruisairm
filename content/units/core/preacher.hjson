@@ -1,16 +1,15 @@
 type: legs
-legCount: 2
-legLength: 17
+legCount: 20
+legLength: 19
 legSpeed: 0.23
-legForwardScl: 6
-legMoveSpace: 2
+legForwardScl: 0.9
+legMoveSpace: 1
 legGroupSize: 1
 legBaseOffset: 2
-allowLegStep: false
 name: Preacher
 description: Defends the Altar core, is equiped with a lighting field and standard repairing bullets
 armor: 2
-speed: 0.3
+speed: 1.6
 flying: false
 health: 250
 hitSize: 10
