@@ -1,0 +1,43 @@
+type: mech
+name: Enforcer
+description: Shoots at enemy units constantly
+speed: 0.6
+flying: false
+health: 320
+hitSize: 10
+outlineColor: 17101a
+mechLegColor: 17101a
+
+  weapons: [
+    {
+      top: false
+      x: 6.1
+      name: shiv-gun-weapon
+      recoil: 0.3
+      shootCone: 0
+        y: 1.25
+        reload: 40
+        rotate: false
+        mirror: true
+        alternate: true
+        shoot: {
+          shots: 3
+          shotDelay: 12
+        }
+        shootSound: shoot-heavy-cannon
+        bullet: {
+          type: BasicBulletType
+          speed: 6
+          lifetime: 28
+          pierce: false
+          damage: 34
+          pierceCap: 1
+          width: 4
+          height: 6
+          trailEffect: disperseTrail
+          trailInterval: 3
+        }
+    }
+    }
+]
+researchCostMultiplier: 1.5
