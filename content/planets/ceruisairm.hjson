@@ -10,7 +10,7 @@ mesh: [
     color1: b9b0a2
     color2: 958d81
     divisions: 6
-    radius: 8.015
+    radius: 0.815
     octaves: 7.8
     persistence: 0.43
 	coct: 1.5
