@@ -14,7 +14,7 @@ mechLegColor: 17101a
       x: 4.5
       y: -1
       name: enforcer-gun-weapon
-      layerOffset: -1
+      layerOffset: -0.5
       recoil: 0.3
       shootCone: 0
         y: 1.25
@@ -33,7 +33,7 @@ mechLegColor: 17101a
           speed: 6
           lifetime: 28
           pierce: false
-          damage: 34
+          damage: 22
           pierceCap: 1
           width: 8
           height: 12
