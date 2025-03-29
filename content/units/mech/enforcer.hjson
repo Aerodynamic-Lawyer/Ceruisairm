@@ -57,7 +57,7 @@ mechLegColor: 17101a
          lifetime: 10
          colors: [e5776e, ed6f65, ffffff]
          despawnSound: none
-        
+         shake: 0
         }
     }
 ]
