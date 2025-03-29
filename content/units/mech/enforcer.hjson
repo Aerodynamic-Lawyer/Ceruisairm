@@ -22,7 +22,7 @@ mechLegColor: 17101a
         rotate: true
         rotationLimit: 25
         mirror: true
-        alternate: true
+        alternate: false
         shoot: {
           shots: 3
           shotDelay: 12
@@ -31,9 +31,9 @@ mechLegColor: 17101a
         bullet: {
           type: BasicBulletType
           speed: 6
-          lifetime: 28
+          lifetime: 20
           pierce: false
-          damage: 22
+          damage: 11
           pierceCap: 1
           width: 8
           height: 12
