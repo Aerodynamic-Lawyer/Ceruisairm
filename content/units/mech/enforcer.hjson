@@ -11,7 +11,8 @@ mechLegColor: 17101a
   weapons: [
     {
       top: false
-      x: 3.5
+      x: 4.5
+      y: -1
       name: enforcer-gun-weapon
       layerOffset: -1
       recoil: 0.3
