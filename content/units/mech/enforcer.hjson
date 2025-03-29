@@ -17,7 +17,8 @@ mechLegColor: 17101a
       shootCone: 0
         y: 1.25
         reload: 40
-        rotate: false
+        rotate: true
+        rotationLimit: 25
         mirror: true
         alternate: true
         shoot: {
