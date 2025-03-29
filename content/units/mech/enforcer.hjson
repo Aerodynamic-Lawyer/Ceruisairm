@@ -54,7 +54,7 @@ mechLegColor: 17101a
          length: 35
          width: 1
          damage: 0
-         lifetime: 1
+         lifetime: 10
          colors: [e5776e, ed6f65, ffffff]
          despawnSound: none
         
