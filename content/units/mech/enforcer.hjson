@@ -41,7 +41,7 @@ mechLegColor: 17101a
        }
       {
         name: enforcer-blaster-weapon
-        x: -x
+        x: -1.5
         recoil: 0
         shootCone: 0
         y: 1.25
