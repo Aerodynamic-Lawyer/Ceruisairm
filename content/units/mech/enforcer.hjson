@@ -38,6 +38,7 @@ mechLegColor: 17101a
           width: 8
           height: 12
         }
+       }
       {
         name: enforcer-blaster-weapon
         x: -x
