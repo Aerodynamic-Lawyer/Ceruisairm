@@ -45,7 +45,7 @@ mechLegColor: 17101a
         recoil: 0
         shootCone: 0
         y: 1.25
-        reload: 0
+        reload: 8000000
         rotate: true
         mirror: false
         alternate: false
@@ -61,7 +61,7 @@ mechLegColor: 17101a
          damageInterval: 10
          damage: 0
          lifetime: 8000000
-         fadeTime: 80000
+         fadeTime: 0
          incendSpread: 0
          incendAmount: 0
          incendChance: 0
