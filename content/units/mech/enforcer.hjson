@@ -44,7 +44,6 @@ mechLegColor: 17101a
         y: -1.5
         recoil: 0
         shootCone: 0
-        y: 1.25
         reload: 1
         rotate: true
         mirror: false
