@@ -53,11 +53,11 @@ mechLegColor: 17101a
          type: ContinuousLaserBulletType
          buildingDamageMultiplier: 0.75
          length: 35
-         width: .05
+         width: 0.1
          shake: 0
          damage: 0
          lifetime 1
-         colors: [baa164, d3b672, edc66c, fae0a3, ffffff]
+         colors: [e5776e, ed6f65, e5776e, c25c73, ffffff]
          despawnSound: none
          pierceCap: 5
         }
