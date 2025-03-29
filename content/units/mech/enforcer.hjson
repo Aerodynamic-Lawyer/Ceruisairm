@@ -38,7 +38,7 @@ mechLegColor: 17101a
           width: 8
           height: 12
         }
-       {
+      {
         name: enforcer-blaster-weapon
         x: -x
         recoil: 0
@@ -54,21 +54,21 @@ mechLegColor: 17101a
         bullet: {
          type: ContinuousLaserBulletType
          buildingDamageMultiplier: 0.75
-      length: 35
-      width: .05
-      shake: 0
-      damageInterval: 10
-      damage: 0
-      lifetime: 8000000
-      fadeTime: 80000
-      incendSpread: 0
-      incendAmount: 0
-      incendChance: 0
-      colors: [baa164, d3b672, edc66c, fae0a3, ffffff]
-      despawnSound: none
-      fragBullets: 0
-      fragRandomSpread: 0
-      pierceCap: 5
+         length: 35
+         width: .05
+         shake: 0
+         damageInterval: 10
+         damage: 0
+         lifetime: 8000000
+         fadeTime: 80000
+         incendSpread: 0
+         incendAmount: 0
+         incendChance: 0
+         colors: [baa164, d3b672, edc66c, fae0a3, ffffff]
+         despawnSound: none
+         fragBullets: 0
+         fragRandomSpread: 0
+         pierceCap: 5
         }
     }
 ]
