@@ -1,6 +1,6 @@
 localizedName: Ceruisairm
 description: "A planet filled with life, if it gets in the way, you know what to do."
-alwaysUnlocked: true
+alwaysUnlocked: false
 mesh: [
  {
  //soil
