@@ -34,8 +34,6 @@ mechLegColor: 17101a
           pierceCap: 1
           width: 8
           height: 12
-          trailEffect: disperseTrail
-          trailInterval: 3
         }
     }
 ]
