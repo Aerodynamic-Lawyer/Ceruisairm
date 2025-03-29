@@ -56,7 +56,7 @@ mechLegColor: 17101a
          width: 0.1
          shake: 0
          damage: 0
-         lifetime 1
+         lifetime: 1
          colors: [e5776e, ed6f65, ffffff]
          despawnSound: none
          pierceCap: 5
