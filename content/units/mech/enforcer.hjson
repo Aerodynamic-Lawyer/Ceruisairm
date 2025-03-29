@@ -59,8 +59,6 @@ mechLegColor: 17101a
          lifetime 1
          colors: [baa164, d3b672, edc66c, fae0a3, ffffff]
          despawnSound: none
-         fragBullets: 0
-         fragRandomSpread: 0
          pierceCap: 5
         }
     }
