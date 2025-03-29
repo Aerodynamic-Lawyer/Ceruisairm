@@ -45,13 +45,10 @@ mechLegColor: 17101a
         recoil: 0
         shootCone: 0
         y: 1.25
-        reload: 8000000
+        reload: 1
         rotate: true
         mirror: false
         alternate: false
-        shoot: {
-          shots: 1
-         }
         bullet: {
          type: ContinuousLaserBulletType
          buildingDamageMultiplier: 0.75
